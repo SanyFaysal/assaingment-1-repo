@@ -1,8 +1,10 @@
-
+body{
+       font-family: 'Poppins', sans-serif;
+}
 #mission-color{
      display:block;
-     color:greenyellow;}
-section{
+     color:rgb(148, 219, 40);}
+.section-1{
      display: flex;
 }
 .half-width-1{
@@ -11,13 +13,14 @@ section{
 }
 .half-width-1 h1{
      font-size: 45px;
+     font-weight: 700;
      font-family: 'Ubuntu', sans-serif;
      border-left: 5px solid rgb(81, 129, 9);
      padding-left: 10px;;
 }
 .half-width-1 p{
      font-size: 25px;
-     font-family: 'Poppins', sans-serif;;
+     
 }
 .half-width-1 img{
      width: 60%;
@@ -25,9 +28,49 @@ section{
 }
 #explorebtn{
      text-decoration: none;
-     border:none;
-     
-
-
-     background-color: yellowgreen;
+     background-image:linear-gradient(yellowgreen, greenyellow);    
+     font-size: 16px;
+     color: white;
+     border-radius: 5px;;
+     padding: 10px 40px;
+     background-color: rgb(148, 219, 40);
+}
+.under{
+  margin-top: 35px;
+}
+.section-2 h1{
+     text-align: center;
+     font-size:35px ;
+     font-weight: 700;
+}
+.section-2 span{
+     color:rgb(148, 219, 40)
+}
+.section-2-parent{
+     display:flex;
+     margin-left: 8%;;
+    
+}
+.section-2-parent div{
+     width: 250px;
+     text-align: justify;
+     margin-left: 5%;
+     padding: 20px;
+     border-radius: 20px;
+   
+}
+.section-2 img{
+     width: 50%;
+}
+.section-2-parent div p{
+     font-size: 14px;;
+}
+.section-2-child-1{background-color:#EAF5F5 ;}
+.section-2-child-2{background-color:#FFEEE8}
+.section-2-child-3{background-color:#FEF4D1}
+.section-3{
+     display:flex;
+}
+.section-3 div{
+     width:50%;
 }
