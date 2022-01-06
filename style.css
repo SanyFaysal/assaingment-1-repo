@@ -24,9 +24,10 @@ body{
 }
 .half-width-1 img{
      width: 60%;
-     margin-top: -10px;;
+     margin-top: -10px;
+     
 }
-#explorebtn{
+.btn{
      text-decoration: none;
      background-image:linear-gradient(yellowgreen, greenyellow);    
      font-size: 16px;
@@ -60,7 +61,7 @@ body{
    
 }
 .section-2 img{
-     width: 50%;
+     width: 45%;
 }
 .section-2-parent div p{
      font-size: 14px;;
@@ -70,7 +71,50 @@ body{
 .section-2-child-3{background-color:#FEF4D1}
 .section-3{
      display:flex;
+     margin-top: 5%;
+     background-image: url(mission-2022-main\images\shapes\dream-bg.png);
+     background-repeat: no-repeat;
+     background-position: left;
+
 }
 .section-3 div{
-     width:50%;
+     width:40%;
+     background-position: left;
+}
+.section-3-img img{
+     width: 50%;
+     margin-left: 32%
+}
+.section-3-text p{margin-bottom: 30px;}
+.section-4{
+     display:flex;
+     margin-top: 5%;
+}
+.section-4 div{
+width: 50%;
+}
+.section-4-img img{
+width: 50%;
+}
+.section-4-txt {
+     width: 30%;
+     padding-left: 10%;;
+}
+.section-4-txt p{
+     margin-bottom: 5%;;
+}
+footer{
+     background:rgb(0, 0, 0);
+     text-align:center;
+     color:white;
+     padding-bottom: 50px;
+     padding-top: 20px;;
+}
+footer h1{
+     font-family: 'Lobster Two', cursive;
+     padding-top: 30px;
+     font-size: 50px;;
+}
+footer h1 span{
+     color: rgb(148, 219, 40)
 }
