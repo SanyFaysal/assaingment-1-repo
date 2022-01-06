@@ -1,0 +1,33 @@
+
+#mission-color{
+     display:block;
+     color:greenyellow;}
+section{
+     display: flex;
+}
+.half-width-1{
+     width: 50%;
+     padding-left: 10%;
+}
+.half-width-1 h1{
+     font-size: 45px;
+     font-family: 'Ubuntu', sans-serif;
+     border-left: 5px solid rgb(81, 129, 9);
+     padding-left: 10px;;
+}
+.half-width-1 p{
+     font-size: 25px;
+     font-family: 'Poppins', sans-serif;;
+}
+.half-width-1 img{
+     width: 60%;
+     margin-top: -10px;;
+}
+#explorebtn{
+     text-decoration: none;
+     border:none;
+     
+
+
+     background-color: yellowgreen;
+}
